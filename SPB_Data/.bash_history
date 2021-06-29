@@ -402,3 +402,11 @@ clear
 exit
 LS
 LS
+ssh -i "jenkins key.pem" ubuntu@ec2-15-206-205-48.ap-south-1.compute.amazonaws.com
+ssh -i "jenkins key.pem" ubuntu@ec2-15-206-205-48.ap-south-1.compute.amazonaws.com
+cd Downloads/
+ssh -i "jenkins key.pem" ubuntu@ec2-15-206-205-48.ap-south-1.compute.amazonaws.com
+ssh-keygen
+got push origion Gnanatheja
+/
+git push origion master
